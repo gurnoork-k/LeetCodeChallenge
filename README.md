@@ -1,7 +1,6 @@
 # LeetCode Challenge 🧩
 
 ## 📊 Stats
-## 📊 Stats
 <!-- SOLVED_COUNT_START -->
 Problems Solved: 3
 <!-- SOLVED_COUNT_END -->
