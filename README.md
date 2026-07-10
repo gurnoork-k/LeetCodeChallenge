@@ -1,7 +1,7 @@
 # LeetCode Challenge 🧩
 
 ## 📊 Stats
-- Problems Solved: 2
+- Problems Solved: 3
 - Languages: C++
 
 ## ✅ Solved
