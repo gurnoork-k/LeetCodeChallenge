@@ -5,10 +5,8 @@
 - Languages: C++
 
 ## ✅ Solved
-| # | Problem | Difficulty |
-|---|---------|-----------|
-| 17 | [Letter Combinations of a Phone Number](./0017-letter-combinations-of-a-phone-number) | Medium |
-| 78 | [Subsets](./0078-subsets) | Medium |
+<!-- PROBLEMS_TABLE_START -->
+<!-- PROBLEMS_TABLE_END -->
 
 ## 🎯 Goal
 Consistent daily practice, focused on patterns: recursion/backtracking, binary search, sorting algorithms.
