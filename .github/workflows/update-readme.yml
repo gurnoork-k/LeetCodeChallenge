@@ -1,31 +1,62 @@
-name: Update README with solved problems
+import os
+import re
 
-on:
-  push:
-    branches:
-      - main
+REPO_ROOT = "."
+README_PATH = "README.md"
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+IGNORE = {".git", ".github", "scripts", "node_modules"}
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+def get_problem_folders():
+    folders = []
+    for name in os.listdir(REPO_ROOT):
+        if os.path.isdir(name) and name not in IGNORE and re.match(r"^\d{4}-", name):
+            folders.append(name)
+    return sorted(folders, key=lambda x: int(x.split("-")[0]))
 
-      - name: Run README updater
-        run: python scripts/update_readme.py
+def folder_to_title(folder):
+    parts = folder.split("-")[1:]
+    return " ".join(p.capitalize() for p in parts)
 
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "docs: auto-update solved problems table"
-          git push
+def build_table(folders):
+    rows = ["| # | Problem | Folder |", "|---|---------|--------|"]
+    for folder in folders:
+        num = str(int(folder.split("-")[0]))
+        title = folder_to_title(folder)
+        rows.append(f"| {num} | {title} | [{folder}](./{folder}) |")
+    return "\n".join(rows)
+
+def replace_between_markers(content, start_marker, end_marker, new_text):
+    section = f"{start_marker}\n{new_text}\n{end_marker}"
+    if start_marker in content and end_marker in content:
+        return re.sub(f"{start_marker}.*?{end_marker}", section, content, flags=re.DOTALL)
+    else:
+        return content + f"\n\n{section}\n"
+
+def update_readme(folders, table):
+    with open(README_PATH, "r") as f:
+        content = f.read()
+
+    # Update problems solved count
+    content = replace_between_markers(
+        content,
+        "<!-- SOLVED_COUNT_START -->",
+        "<!-- SOLVED_COUNT_END -->",
+        f"Problems Solved: {len(folders)}"
+    )
+
+    # Update table
+    content = replace_between_markers(
+        content,
+        "<!-- PROBLEMS_TABLE_START -->",
+        "<!-- PROBLEMS_TABLE_END -->",
+        table
+    )
+
+    with open(README_PATH, "w") as f:
+        f.write(content)
+
+if __name__ == "__main__":
+    folders = get_problem_folders()
+    table = build_table(folders)
+    update_readme(folders, table)
+    print(f"Updated README with {len(folders)} problems.")
