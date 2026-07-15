@@ -26,6 +26,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase origin main
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "docs: auto-update solved problems table"
           git push
