@@ -18,15 +18,3 @@ Problems Solved: 3
 
 ## 🎯 Goal
 Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes to actually understand DSA deeply, not just grind for the sake of it.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0283-move-zeroes](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0283-move-zeroes) |
-## Two Pointers
-|  |
-| ------- |
-| [0283-move-zeroes](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0283-move-zeroes) |
-<!---LeetCode Topics End-->
