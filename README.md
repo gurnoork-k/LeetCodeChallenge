@@ -30,4 +30,12 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
