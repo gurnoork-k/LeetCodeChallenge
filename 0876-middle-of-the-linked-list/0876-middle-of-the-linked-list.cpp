@@ -21,14 +21,34 @@ public:
 
 public:
     ListNode* middleNode(ListNode* head) {
-        int n = getLen(head);
-        int middle = (n/2);
-        ListNode* temp = head;
-        int c = 0;
-        while(c < middle){
-            temp = temp -> next;
-            c++;
+
+        if(head == NULL || head-> next == NULL){
+            return head;
         }
-        return temp;
+
+        if(head -> next -> next == NULL){
+            return head -> next;
+        }
+
+        ListNode* fast = head -> next;
+        ListNode* slow = head;
+
+        while(fast != NULL){
+            fast = fast -> next;
+            if(fast != NULL){
+                fast = fast -> next;
+            }
+            slow = slow -> next;
+        }
+        return slow;
+        // int n = getLen(head);
+        // int middle = (n/2);
+        // ListNode* temp = head;
+        // int c = 0;
+        // while(c < middle){
+        //     temp = temp -> next;
+        //     c++;
+        // }
+        // return temp;
     }
 };
