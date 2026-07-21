@@ -26,10 +26,6 @@ public:
             return head;
         }
 
-        if(head -> next -> next == NULL){
-            return head -> next;
-        }
-
         ListNode* fast = head -> next;
         ListNode* slow = head;
 
