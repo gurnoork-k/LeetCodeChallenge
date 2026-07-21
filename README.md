@@ -2,7 +2,7 @@
 
 ## 📊 Stats
 <!-- SOLVED_COUNT_START -->
-Problems Solved: 3
+Problems Solved: 6
 <!-- SOLVED_COUNT_END -->
 - Languages: C++
 
