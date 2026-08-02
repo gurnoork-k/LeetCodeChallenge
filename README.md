@@ -37,6 +37,7 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
@@ -44,6 +45,7 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
@@ -56,4 +58,8 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
