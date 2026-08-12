@@ -30,6 +30,7 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Dynamic Programming
 |  |
@@ -63,4 +64,8 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0002-add-two-numbers) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
