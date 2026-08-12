@@ -10,6 +10,7 @@ Problems Solved: 6
 <!-- PROBLEMS_TABLE_START -->
 | # | Problem | Folder |
 |---|---------|--------|
+| 1 | Two Sum | [0001-two-sum](./0001-two-sum) |
 | 2 | Add Two Numbers | [0002-add-two-numbers](./0002-add-two-numbers) |
 | 17 | Letter Combinations Of A Phone Number | [0017-letter-combinations-of-a-phone-number](./0017-letter-combinations-of-a-phone-number) |
 | 25 | Reverse Nodes In K Group | [0025-reverse-nodes-in-k-group](./0025-reverse-nodes-in-k-group) |
