@@ -34,6 +34,7 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 | ------- |
 | [0001-two-sum](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [1929-concatenation-of-array](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -79,4 +80,8 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0020-valid-parentheses) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
