@@ -60,6 +60,7 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
 ## Math
 |  |
@@ -69,4 +70,12 @@ Consistent practice across LeetCode and Coding Ninjas, solving whatever it takes
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0001-two-sum) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/gurnoork-k/LeetCodeChallenge/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
